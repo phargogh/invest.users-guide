@@ -242,7 +242,7 @@ The following is a short description of each of the outputs from the Pollination
 
 * **pollinator_supply_[SPECIES]_[Suffix].tif**: Per-pixel index of pollinator [SPECIES] that could be on a pixel given its arbitrary abundance factor from the table, multiplied by the habitat suitability for that species at that pixel, multiplied by the available floral resources that a pollinator could fly to from that pixel. (Eqn. 1)
 
-* **total_pollinator_abundance_[SEASON]_[Suffix].tif**: (Only generated if a farm vector is provided) Per-pixel total pollinator abundance across all species per season.
+* **total_pollinator_abundance_[SEASON]_[Suffix].tif**: Per-pixel total pollinator abundance across all species per season.
 
 * **total_pollinator_yield_[Suffix].tif**: (Only generated if a farm vector is provided) Per-pixel total pollinator yield index for pixels that overlap farms, including wild and managed pollinators.
 
